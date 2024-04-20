@@ -2,3 +2,5 @@ google-api-python-client
 flask
 python-dotenv
 diskcache
+pre-commit
+setuptools

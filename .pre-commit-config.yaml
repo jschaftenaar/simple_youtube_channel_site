@@ -1,11 +1,15 @@
 ---
 repos:
--   repo: https://github.com/Yelp/detect-secrets
+  - repo: https://github.com/Yelp/detect-secrets
     rev: v1.4.0
     hooks:
-    -   id: detect-secrets
+      - id: detect-secrets
         args: ['--baseline', '.secrets.baseline']
--   repo: https://github.com/PyCQA/prospector
+  - repo: https://github.com/PyCQA/prospector
     rev: v1.10.3
     hooks:
-    -   id: prospector
+      - id: prospector
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.35.1
+    hooks:
+      - id: yamllint

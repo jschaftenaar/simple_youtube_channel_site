@@ -1,7 +1,6 @@
 from googleapiclient.discovery import build
 import os
 from diskcache import Cache
-import time
 
 cache = Cache('./cache')
 
